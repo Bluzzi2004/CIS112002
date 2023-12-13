@@ -1,13 +1,15 @@
 {
-  "name": "cis-1120-11-15-22-resume-example-with-data",
+  "name": "energy-drink-website-codesandbox",
   "version": "1.0.0",
-  "description": "from https://alvaromontoro.com/files/resume-classic.html - formerly priceless-dawn-nloyb7",
+  "description": "Formerly brave-bash-izbi7b",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-scripts": "4.0.0"
+    "react-router-dom": "6.3.0",
+    "react-scripts": "4.0.0",
+    "react-router-hash-link": "2.4.3"
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
