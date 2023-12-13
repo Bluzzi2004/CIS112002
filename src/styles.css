@@ -2,3 +2,220 @@
   font-family: sans-serif;
   text-align: center;
 }
+body {
+  background-color: darkgray;
+  margin-top: 50px;
+  font-family: Times-New-Roman; sans-serif;
+}
+h1 {
+  color: red;
+}
+h2 {
+  color: darkgreen;
+}
+p {
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+img {
+  border-radius: 20px;
+}
+img:hover {
+  border-radius: 0px;
+  transition: 500ms;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #000;
+  color: white;
+}
+#facts {
+  padding: 25px;
+  margin: 30px;
+  background-color: orange;
+  border: thick black solid;
+  font-family: Verdana; Geneva, Tahoma, sans-serif;
+}
+#facts2 {
+  padding: 25px;
+  margin: 30px;
+  background-color: orange;
+  border: thick black solid;
+  font-family: Verdana; Geneva, Tahoma, sans-serif;
+  font-size: 16px; 
+}
+#nice {
+  font-family: "Brush Script MT"; Times-New-Roman, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  background-color: darkblue;
+  background: url(https://i.pinimg.com/originals/26/fe/d1/26fed1108e9f0fba6459d29e044a964d.jpg);
+  background-repeat: round; 
+  color: white;
+  border: thick black;
+}
+#drink:hover {
+  transform: scale(1.1);
+  transition: 500ms;
+}
+#drivers {
+  font-family: Tahoma; Verdana, Arial, sans-serif;
+  color: yellow;
+  border: thick dashed yellow;
+  background-color: black;
+  padding: 20px;
+  margin: 20px;
+}
+#action {
+  color: red;
+  border: thin solid red;
+  background-color: white;
+  padding: 50px;
+  margin: 50px;
+  font-weight: bold;
+  font-family: Tahoma; Verdana, Arial, sans-serif;
+  text-align: center;
+}
+#action a {
+  color: red;
+}
+#action a:hover {
+  color: blue;
+  border: white;
+}
+#buy {
+  padding: 15px;
+  margin: 15px;
+  color: red;
+  border: solid green thick;
+  background-color: #FFF;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.name {
+color: orange;
+font-weight: bold;
+}
+.car {
+color: white;
+font-style: italic;
+}
+.drinktitle {
+  font-family: "Brush Script MT"; Times-New-Roman, sans-serif;
+  font-size: 35px;
+  color: #B8860B;
+  text-shadow: 2px 2px #000;
+}
+.ingredients {
+  padding: 25px;
+  margin: 20px;
+  background-color: #00008B;
+  border: thin black solid;
+  font-family: Courier New; Verdana, Geneva, Tahoma, sans-serif;
+  color: #FFF;
+  font-weight: bold;
+}
+.container {
+  display: grid;
+  grid-template-columns: fit-content(150px);
+  grid-auto-rows: fit-content(150px);  
+  text-align: center; 
+}
+.text1 {
+  grid-column: 2;
+  grid-row: 1;  
+
+}
+.image1 {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+.text2 {
+  grid-column: 2;
+  grid-row: 3;
+}
+.image2 {
+  grid-column: 1 / 2;
+  grid-row: 3;
+}
+a {
+  transition: 500ms;
+}
+a:hover {
+  color: green;
+  border: thin solid red;
+  background-color: white;
+}
+a:active {
+  color: darkred;
+  border: thick solid red;
+}
+nav li {
+  list-style-type: none;
+  transition: 500ms;
+  display: inline-block;
+  padding: 15px;
+  font-size: 18px;
+}
+nav ul {
+  list-style-type: none;
+  justify-content: space-around;
+  margin: 0px;
+}
+nav a:link,
+nav a:visited {
+  border: 0px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+nav li:hover {
+  list-style-type: none;
+  transition: 500ms;
+  background-color: goldenrod;
+  color: black; 
+}
+nav li:active {
+  transition: 500ms; 
+}
+nav a:hover { 
+  color: black; 
+  background-color: transparent;
+  margin: 15px;  
+  text-decoration: underline; 
+  font-size: 1.1em;
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+@media screen and (max-width: 480px) {
+  body {
+    margin-top:100px;   
+  }
+}
+@media screen and (max-width: 600px) {
+  img {
+    width:400px;
+    height:auto;
+  }
+  #energy {
+    width: 200px;
+    height: auto;
+  }
+  #drink {
+    width: 100px;
+    height: auto;
+  }
+}
+@media print {
+ body {
+  font-family: webdings;
+ }
+}
