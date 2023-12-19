@@ -16,7 +16,7 @@ export default function About() {
       </p>
       <HashLink to="/">Return to Main Page</HashLink>
       <h2>Here are the Health Facts about the Italian Energy Drink!</h2>
-      <ul id="facts">
+      <ul class="facts">
         <li>
           Contains Vitamins B2, B3, B5, B6 and B12
           <li>Made with zero fat and cholesterol</li>
@@ -30,7 +30,7 @@ export default function About() {
         </li>
       </ul>
       <h2>What Ingredients are in the Italian Energy Drink?</h2>
-      <p id="facts2">
+      <p class="facts">
         Water, Sucrose, Fructose Syrup, Citric Acid, Carbon Dioxide,
         Taurine(0,4%) Sodium Citrate, Caramel Color, Magnesium, Carbonate,
         Caffeine, Glucuronolactone, Inosito, Natural and Artificial flavor,
@@ -39,7 +39,7 @@ export default function About() {
         B12), Caffeine content(32mg/100ml)
       </p>
       <h2>Corporate Structure and Stock Symbol</h2>
-      <p>
+      <p class="facts">
         While you're here, why not take a look at our stock! You'll get up to
         date information about our company and nothing but the facts!{" "}
         <a href="https://www.otcmarkets.com/stock/IFBC/overview">

@@ -41,7 +41,8 @@ export default function Racing() {
       <div id="action">
         <h3>Wanna seem them in action? Check our offical YouTube page!</h3>
         <p>
-          Ready, Set,{" "}
+          Ready, Set,
+          <br></br>
           <a href="https://www.youtube.com/channel/UCneNhW3ZiMGMMlHhPWf17-Q/channels">
             Start your engines!
           </a>

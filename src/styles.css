@@ -3,119 +3,86 @@
   text-align: center;
 }
 body {
-  background-color: darkgray;
-  margin-top: 50px;
-  font-family: Times-New-Roman; sans-serif;
-}
-h1 {
-  color: red;
-}
-h2 {
-  color: darkgreen;
+  background-color: #000;
+  margin-top: 55px;
+  font-family: Verdana, Times-New-Roman, Arial, sans-serif;
+  color: #FFF;
 }
 p {
     padding: 10px;
     margin: 10px;
-    font-size: 20px;
+    font-size: 20px; 
 }
 img {
   border-radius: 20px;
+  transition: 500ms;
 }
 img:hover {
   border-radius: 0px;
-  transition: 500ms;
 }
 footer {
   text-align: center;
   padding: 3px;
   background-color: #000;
-  color: white;
-}
-#facts {
-  padding: 25px;
-  margin: 30px;
-  background-color: orange;
-  border: thick black solid;
-  font-family: Verdana; Geneva, Tahoma, sans-serif;
-}
-#facts2 {
-  padding: 25px;
-  margin: 30px;
-  background-color: orange;
-  border: thick black solid;
-  font-family: Verdana; Geneva, Tahoma, sans-serif;
-  font-size: 16px; 
+  color: #FFF;
 }
 #nice {
-  font-family: "Brush Script MT"; Times-New-Roman, sans-serif;
+  font-family: "Brush Script MT"; Verdana, Times-New-Roman, Arial, sans-serif;
   font-size: 50px;
   text-align: center;
-  background-color: darkblue;
   background: url(https://i.pinimg.com/originals/26/fe/d1/26fed1108e9f0fba6459d29e044a964d.jpg);
   background-repeat: round; 
-  color: white;
-  border: thick black;
-}
-#drink:hover {
-  transform: scale(1.1);
-  transition: 500ms;
+  color: #FFF;
 }
 #drivers {
-  font-family: Tahoma; Verdana, Arial, sans-serif;
-  color: yellow;
-  border: thick dashed yellow;
-  background-color: black;
+  border: thick dashed #B8860B;
+  background-color: #000;
   padding: 20px;
   margin: 20px;
 }
 #action {
-  color: red;
-  border: thin solid red;
-  background-color: white;
+  color: #000;
+  border: thin solid #B8860B;
+  background-color: #FFF;
   padding: 50px;
   margin: 50px;
   font-weight: bold;
-  font-family: Tahoma; Verdana, Arial, sans-serif;
   text-align: center;
 }
-#action a {
-  color: red;
+.facts {
+  padding: 25px;
+  margin: 30px;
+  border: thick goldenrod solid;
+  font-size: 20px;
 }
-#action a:hover {
-  color: blue;
-  border: white;
-}
-#buy {
+.buy {
   padding: 15px;
   margin: 15px;
-  color: red;
-  border: solid green thick;
-  background-color: #FFF;
+  color: white;
+  border: solid goldenrod thick;
   font-size: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
 }
 .name {
-color: orange;
 font-weight: bold;
 }
 .car {
-color: white;
 font-style: italic;
 }
-.drinktitle {
-  font-family: "Brush Script MT"; Times-New-Roman, sans-serif;
+.title {
+  font-family: "Brush Script MT"; Verdana, Times-New-Roman, Arial, sans-serif;
   font-size: 35px;
   color: #B8860B;
   text-shadow: 2px 2px #000;
 }
+.drink:hover {
+  transform: scale(1.1);
+  transition: 500ms;
+}
 .ingredients {
   padding: 25px;
   margin: 20px;
-  background-color: #00008B;
-  border: thin black solid;
-  font-family: Courier New; Verdana, Geneva, Tahoma, sans-serif;
-  color: #FFF;
+  border: thick goldenrod solid;
   font-weight: bold;
 }
 .container {
@@ -127,7 +94,6 @@ font-style: italic;
 .text1 {
   grid-column: 2;
   grid-row: 1;  
-
 }
 .image1 {
   grid-column: 1 / 2;
@@ -143,15 +109,15 @@ font-style: italic;
 }
 a {
   transition: 500ms;
+  color: goldenrod; 
 }
 a:hover {
-  color: green;
-  border: thin solid red;
+  color: black;
+  border: thin solid goldenrod;
   background-color: white;
 }
 a:active {
-  color: darkred;
-  border: thick solid red;
+  border: thick solid goldenrod;
 }
 nav li {
   list-style-type: none;
@@ -183,13 +149,11 @@ nav li:active {
 }
 nav a:hover { 
   color: black; 
-  background-color: transparent;
-  margin: 15px;  
+  background-color: transparent;  
   text-decoration: underline; 
-  font-size: 1.1em;
 }
 nav {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(127, 127, 127, 0.5);
   position: fixed;
   width: 100%;
   top: 0;
@@ -209,13 +173,8 @@ nav {
     width: 200px;
     height: auto;
   }
-  #drink {
+  .drink {
     width: 100px;
     height: auto;
   }
-}
-@media print {
- body {
-  font-family: webdings;
- }
 }

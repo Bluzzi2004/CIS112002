@@ -13,7 +13,7 @@ export default function Purchase() {
       </p>
       <div class="container">
         <div class="text1">
-          <p id="buy">
+          <p class="buy">
             Our main event and the drink that started it all, be sure to get a
             blast when you have a nice refreshing drink of the original{" "}
             <em>Dino Luzzi Energy Drink!</em> <br></br>
@@ -28,7 +28,7 @@ export default function Purchase() {
           </p>
         </div>
         <div class="text2">
-          <p id="buy">
+          <p class="buy">
             Our newly created sugar free version of{" "}
             <em>Dino Luzzi Energy Drink</em> provides all the benefits of it's
             original counter with less sugar so that you can stay energized
@@ -45,7 +45,7 @@ export default function Purchase() {
           </p>
         </div>
       </div>
-      <p id="buy">
+      <p class="buy">
         You can also purchase our product on Amazon!
         <br></br>
         <a href="https://www.amazon.com/dp/B09K7Y5DG7/ref=cm_sw_r_wa_api_glt_fabc_2XYCJFQW66HZ6QFF07QD?th=1">

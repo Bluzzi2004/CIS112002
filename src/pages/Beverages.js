@@ -9,8 +9,8 @@ export default function Beverages() {
       <h1>Check our unique beverages!</h1>
       <p id="nice">"Nothing better then a nice drink in the moonlight!"</p>
       <h2>Bet your thristy, Have a drink!</h2>
-      <h3 class="drinktitle">Dolce Dino</h3>
-      <img src={drink1} id="drink" alt="Dolce Dino image" />
+      <h3 class="title">Dolce Dino</h3>
+      <img src={drink1} class="drink" alt="Dolce Dino image" />
       <ul class="ingredients">
         <li>1 Cup Ice</li>
         <li>1 Oz Watermelon Schnapps</li>
@@ -19,8 +19,8 @@ export default function Beverages() {
           4 Oz <em>Dino Luzzi Energy Drink</em>
         </li>
       </ul>
-      <h3 class="drinktitle">Kick in the Arse</h3>
-      <img src={drink2} id="drink" alt="Kick in the Arse image" />
+      <h3 class="title">Kick in the Arse</h3>
+      <img src={drink2} class="drink" alt="Kick in the Arse image" />
       <ul class="ingredients">
         <li>1 Cup Ice</li>
         <li>1 1/2 Oz Jagermeister</li>
@@ -28,8 +28,8 @@ export default function Beverages() {
           6 Oz <em>Dino Luzzi Energy Drink</em>
         </li>
       </ul>
-      <h3 class="drinktitle">Dino-Rita</h3>
-      <img src={drink3} id="drink" alt="Dino-Rita image" />
+      <h3 class="title">Dino-Rita</h3>
+      <img src={drink3} class="drink" alt="Dino-Rita image" />
       <ul class="ingredients">
         <li>1 Cup Ice</li>
         <li>1 Oz Margarita Mix</li>
