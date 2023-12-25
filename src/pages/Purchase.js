@@ -12,36 +12,35 @@ export default function Purchase() {
         purchase the beverage on our page on TalkShopLive!
       </p>
       <div class="container">
-        <div class="text1">
+        <div class="text">
           <p class="buy">
             Our main event and the drink that started it all, be sure to get a
-            blast when you have a nice refreshing drink of the original{" "}
-            <em>Dino Luzzi Energy Drink!</em> <br></br>
+            blast when you have a nice refreshing drink of the original Dino
+            Luzzi Energy Drink! <br></br>
             <a href="https://talkshop.live/product/3K7unuSCm-zZ/dino-luzzi-energy-drink-72523896">
               Purchase Our Energy Drink Here!
             </a>
           </p>
         </div>
-        <div class="image1">
+        <div class="image">
           <p>
-            <img src={regular} id="energy" alt="Regular Energy Drink" />
+            <img src={regular} class="energy" alt="Regular Energy Drink" />
           </p>
         </div>
-        <div class="text2">
+        <div class="text">
           <p class="buy">
-            Our newly created sugar free version of{" "}
-            <em>Dino Luzzi Energy Drink</em> provides all the benefits of it's
-            original counter with less sugar so that you can stay energized
-            through our the day! {""}
+            Our newly created sugar free version of Dino Luzzi Energy Drink
+            provides all the benefits of its original counter with less sugar so
+            that you can stay energized through our the day!
             <br></br>
             <a href="https://talkshop.live/product/tTQtGqJwvuG1/dino-luzzi-energy-drink-sugar-free-6ac87499">
               Purchase Our Sugar Version Here!
             </a>
           </p>
         </div>
-        <div class="image2">
+        <div class="image">
           <p>
-            <img src={sugarfree} id="energy" alt="Sugar Free Energy Drink" />
+            <img src={sugarfree} class="energy" alt="Sugar Free Energy Drink" />
           </p>
         </div>
       </div>

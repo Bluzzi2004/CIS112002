@@ -8,25 +8,22 @@ export default function About() {
       <h1>What is the Italian Energy Drink?</h1>
       <p>
         The Italian Energy Drink was first launched in the year 2020. It is made
-        in Italy and is marketed under the name{" "}
-        <em>"Dino Luzzi Energy Drink"</em> under the company IFBC or Italian
-        Food and Beverage Corp with the help of Can International S.R.L. through
-        partnership. Our sparkling and refreshing drink is designed to give you
-        the energy you need through out your day!
+        in Italy and is marketed under the name "Dino Luzzi Energy Drink" under
+        the company IFBC or Italian Food and Beverage Corp with the help of Can
+        International S.R.L. through partnership. Our sparkling and refreshing
+        drink is designed to give you the energy you need through out your day!
       </p>
       <HashLink to="/">Return to Main Page</HashLink>
       <h2>Here are the Health Facts about the Italian Energy Drink!</h2>
       <ul class="facts">
+        <li>Contains Vitamins B2, B3, B5, B6 and B12</li>
+        <li>Made with zero fat and cholesterol</li>
         <li>
-          Contains Vitamins B2, B3, B5, B6 and B12
-          <li>Made with zero fat and cholesterol</li>
-          <li>
-            Low calorie count <strong>(115)</strong>
-          </li>
-          <li>
-            Made with ingredients that improve focus & provides a strong energy
-            boost that lasts the whole day
-          </li>
+          Low calorie count <strong>(115)</strong>
+        </li>
+        <li>
+          Made with ingredients that improve focus & provides a strong energy
+          boost that lasts the whole day
         </li>
       </ul>
       <h2>What Ingredients are in the Italian Energy Drink?</h2>
@@ -47,7 +44,11 @@ export default function About() {
         </a>
       </p>
       <p>
-        <img src={poster2} alt="Energy Drink Poster" />
+        <img
+          src={poster2}
+          srcset={(poster, poster2)}
+          alt="Energy Drink Poster"
+        />
       </p>
     </>
   );

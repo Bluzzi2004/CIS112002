@@ -6,7 +6,7 @@ import Purchase from "./pages/Purchase";
 import Main from "./pages/Main";
 import Racing from "./pages/Racing";
 import Beverages from "./pages/Beverages";
-import Header from "./components/header";
+import Header from "./components/Header";
 
 export default function App() {
   return (

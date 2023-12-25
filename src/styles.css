@@ -5,13 +5,13 @@
 body {
   background-color: #000;
   margin-top: 55px;
-  font-family: Verdana, Times-New-Roman, Arial, sans-serif;
-  color: #FFF;
+  font-family: Verdana, Arial, sans-serif;
+  color: #fff;
 }
 p {
-    padding: 10px;
-    margin: 10px;
-    font-size: 20px; 
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
 }
 img {
   border-radius: 20px;
@@ -24,60 +24,50 @@ footer {
   text-align: center;
   padding: 3px;
   background-color: #000;
-  color: #FFF;
+  color: #fff;
 }
 #nice {
-  font-family: "Brush Script MT"; Verdana, Times-New-Roman, Arial, sans-serif;
+  font-family: "Brush Script MT", Verdana, Arial, sans-serif;
   font-size: 50px;
   text-align: center;
   background: url(https://i.pinimg.com/originals/26/fe/d1/26fed1108e9f0fba6459d29e044a964d.jpg);
-  background-repeat: round; 
-  color: #FFF;
+  background-repeat: round;
+  color: #fff;
 }
 #drivers {
-  border: thick dashed #B8860B;
+  border: thick dashed #b8860b;
   background-color: #000;
   padding: 20px;
   margin: 20px;
 }
 #action {
   color: #000;
-  border: thin solid #B8860B;
-  background-color: #FFF;
+  border: thin solid #b8860b;
+  background-color: #fff;
   padding: 50px;
   margin: 50px;
   font-weight: bold;
   text-align: center;
 }
+.buy,
 .facts {
-  padding: 25px;
+  padding: 30px;
   margin: 30px;
-  border: thick goldenrod solid;
-  font-size: 20px;
-}
-.buy {
-  padding: 15px;
-  margin: 15px;
   color: white;
   border: solid goldenrod thick;
   font-size: 20px;
-  text-align: center;
 }
 .name {
-font-weight: bold;
+  font-weight: bold;
 }
 .car {
-font-style: italic;
+  font-style: italic;
 }
 .title {
-  font-family: "Brush Script MT"; Verdana, Times-New-Roman, Arial, sans-serif;
+  font-family: "Brush Script MT", Verdana, Arial, sans-serif;
   font-size: 35px;
-  color: #B8860B;
+  color: #b8860b;
   text-shadow: 2px 2px #000;
-}
-.drink:hover {
-  transform: scale(1.1);
-  transition: 500ms;
 }
 .ingredients {
   padding: 25px;
@@ -85,31 +75,9 @@ font-style: italic;
   border: thick goldenrod solid;
   font-weight: bold;
 }
-.container {
-  display: grid;
-  grid-template-columns: fit-content(150px);
-  grid-auto-rows: fit-content(150px);  
-  text-align: center; 
-}
-.text1 {
-  grid-column: 2;
-  grid-row: 1;  
-}
-.image1 {
-  grid-column: 1 / 2;
-  grid-row: 1;
-}
-.text2 {
-  grid-column: 2;
-  grid-row: 3;
-}
-.image2 {
-  grid-column: 1 / 2;
-  grid-row: 3;
-}
 a {
   transition: 500ms;
-  color: goldenrod; 
+  color: goldenrod;
 }
 a:hover {
   color: black;
@@ -121,7 +89,6 @@ a:active {
 }
 nav li {
   list-style-type: none;
-  transition: 500ms;
   display: inline-block;
   padding: 15px;
   font-size: 18px;
@@ -142,15 +109,12 @@ nav li:hover {
   list-style-type: none;
   transition: 500ms;
   background-color: goldenrod;
-  color: black; 
+  color: black;
 }
-nav li:active {
-  transition: 500ms; 
-}
-nav a:hover { 
-  color: black; 
-  background-color: transparent;  
-  text-decoration: underline; 
+nav a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
 }
 nav {
   background-color: rgba(127, 127, 127, 0.5);
@@ -159,22 +123,49 @@ nav {
   top: 0;
   left: 0;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   body {
-    margin-top:100px;   
+    margin-top: 200px;
   }
 }
 @media screen and (max-width: 600px) {
   img {
-    width:400px;
-    height:auto;
+    width: 100%;
+    height: auto;
   }
-  #energy {
-    width: 200px;
+  .energy {
+    width: 80%;
     height: auto;
   }
   .drink {
-    width: 100px;
+    width: 40%;
     height: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (min-width: 601px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .text {
+    grid-column: 1;
+  }
+  .image {
+    grid-column: 2;
+  }
+}
+@media screen and (max-width: 600px) {
+  nav li {
+    display: block;
+    flex-direction: column;
+    font-size: 14px;
+    padding: 10px;
   }
 }

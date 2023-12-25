@@ -7,21 +7,21 @@ export default function Main() {
   return (
     <>
       <h1>The Italian Energy Drink!</h1>
-      <img src={logo2} alt="Dino Luzzi Energy Drink Logo" />
+      <img src={logo2} srcset={logo, logo2} alt="Dino Luzzi Energy Drink Logo" />
       <p>
-        Welcome to the website of the Italian Energy Drink also known as{" "}
-        <em>Dino Luzzi Energy Drink</em>, below there are some links regarding
-        the product! You can also use the navigation bar on the top of your
-        screen for an easier search. Enjoy your surfing and we hope you will
-        consider purchasing our product!
+        Welcome to the website of the Italian Energy Drink also known as Dino
+        Luzzi Energy Drink, below there are some links regarding the product!
+        You can also use the navigation bar on the top of your screen for an
+        easier search. Enjoy your surfing and we hope you will consider
+        purchasing our product!
       </p>
       <p>
-        The Italian Energy Drink <em>(Dino Luzzi Energy Drink)</em> is known as
-        a sparkling drink with a refreshing flavor and without the metallic
-        after taste that many other energy drinks are known to have. Our goal
-        with our drink is that we want to be recongized for putting quality
-        first so that you can get the energy you need and a refreshing drink
-        that will rehydrate you as well! <strong>FIND YOUR POWER!</strong>
+        The Italian Energy Drink (Dino Luzzi Energy Drink) is known as a
+        sparkling drink with a refreshing flavor and without the metallic after
+        taste that many other energy drinks are known to have. Our goal with our
+        drink is that we want to be recongized for putting quality first so that
+        you can get the energy you need and a refreshing drink that will
+        rehydrate you as well! <strong>FIND YOUR POWER!</strong>
       </p>
       <h2>More about us!</h2>
       <p>
